@@ -1,0 +1,25 @@
+{
+  "name": "real-time-fund",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://aq8sunjie.github.io/real-time-fund",
+  "scripts": {
+    "dev": "next dev",
+    "dev:node": "node node_modules/next/dist/bin/next dev",
+    "build": "next build",
+    "build:app": "node scripts/build-app.js",
+    "start": "next start",
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}

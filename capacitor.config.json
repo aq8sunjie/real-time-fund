@@ -1,0 +1,8 @@
+{
+  "appId": "com.realtimefund.app",
+  "appName": "实时基金估值",
+  "webDir": "out",
+  "server": {
+    "androidScheme": "https"
+  }
+}
